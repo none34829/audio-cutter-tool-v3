@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",        // This allows JSX to be parsed
+    "esModuleInterop": true,  // Ensures compatibility with ES6 modules
+    "module": "ESNext",       // Use ESNext module system
+    "target": "ESNext",       // Target modern JavaScript
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true   // Helps with Next.js setup
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],   // Include TS and TSX files
+  "exclude": ["node_modules"]   // Exclude node_modules
+}
